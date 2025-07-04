@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="cal style.css" />
+  </head>
+  <body>
+    <nav class="navbar bg-body-primary">
+      <div class="container-fluid">
+        <h1 class="navbar-brand"><l>WELCOME</l></h1>
+      </div>
+    </nav>
+
+    <div class="box">
+      <h3>CALCULATOR</h3>
+
+      <input
+        type="number"
+        placeholder="Enter the first number"
+        id="num1"
+      /><br /><br />
+      <input
+        type="number"
+        placeholder="Enter the second number"
+        id="num2"
+      /><br /><br />
+
+      <button onclick="add()">ADDITION</button>
+      <button onclick="sub()">SUBTRACTION</button><br /><br />
+      <button onclick="multi()">MULTIPLICATION</button>
+      <button onclick="divi()">DIVISION</button><br /><br />
+      <button onclick="percent()">PERCENTAGE</button>
+      <h2 id="result">RESULT:</h2>
+    </div>
+
+    <script src="cal script.js"></script>
+  </body>
+</html>

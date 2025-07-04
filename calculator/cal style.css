@@ -1,0 +1,56 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: whitesmoke;
+}
+
+input,
+button {
+  margin: 5px;
+  padding: 8px;
+}
+
+#result {
+  color: green;
+}
+
+.box {
+  background-color: seashell;
+  box-shadow: 0 0 10px rgb(207, 145, 156);
+  border-radius: 20px;
+  border-style: double;
+  width: 500px;
+  height: 450px;
+  padding-top: 10px;
+  align-items: center; /* This has no effect unless you use display: flex */
+  margin: 50px 400px;
+}
+
+.navbar {
+  background-color: white;
+  padding: 1rem 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    padding: 1rem;
+  }
+
+  input,
+  button {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  #result {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .navbar {
+    padding: 0.8rem 1rem;
+  }
+}
